@@ -1,14 +1,19 @@
-body{
+body {
     color: #fffbf7;
 }
-h1{
+h1 {
     color: #025157;
 }
-h4{
+h4 {
     color: #46484c;
 }
 
-button{
+button {
     color: #fff;
     background-color: #025157;
+}
+
+.header {
+    background-color: #025157;
+    margin: 40px 20px;
 }
