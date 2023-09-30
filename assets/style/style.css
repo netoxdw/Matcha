@@ -17,7 +17,7 @@ button {
     height: 45px;
     margin: 40px 20px;
     font-size: 0;
-    background-color: yellow;
+    font-family: sans-serif;
 }
 .header > *{
     display: inline-block;
@@ -25,6 +25,10 @@ button {
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
+}
+.header a {
+    text-decoration: none;
+    color: #025157;
 }
 
 .logo{
@@ -36,20 +40,39 @@ button {
 }
 .navbar {
     width: 70%;
+    height: 45px;
     text-align: center;
-    color: #025157;
     font-weight: 500;
+    
+    
 }
 .navbar ul {
     margin: 0px;
+    
 }
 .navbar li{
     display: inline;
+    margin: 0 25px;
 }
+
+
 .actions{
     width: 15%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+}
+.actions > * {
+    margin: 0 10px;
+}
+.actions a {
+    color: #67b54b;
+}
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
 
