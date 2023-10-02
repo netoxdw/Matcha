@@ -1,20 +1,18 @@
-body {
-    color: #fffbf7;
-}
-h1 {
-    color: #025157;
-    font-family: 'Alegreya', serif;
-    font-weight: bold;
-}
-h4 {
-    color: #46484c;
+body{
+    background-color: #fffbf7;
 }
 
-button {
-    color: #fff;
-    background-color: #025157;
-}
 
+
+/* ######################################################################################## */
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
 .header {
     height: 45px;
     margin: 15px 20px;
@@ -28,6 +26,7 @@ button {
     height: 100%;
     line-height: 45px;
 }
+
 .header a {
     text-decoration: none;
     color: #025157;
@@ -73,18 +72,80 @@ button {
 .actions button{
     color: white;
     background-color: #67b54b;
-    padding: 12px 14px;
+    padding: 6px 50px;
     border: 0;
     border-radius: 5px;
+    color: #fff;
+    background-color: #025157;
 }
+
+/* ######################################################################################## */
+.main{
+    margin-top: 285px;
+    text-align: center;
+}
+
+.main h1{
+    font-family: 'Alegreya', serif;
+    color: #025157;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.main h4{
+    color: #46484c;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.main form{
+    height: 55px;
+}
+.main form input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.main form button{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6  px 20px;
+    margin-left: -10px;
+    width: 100px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+/* ######################################################################################## */
 
 .promo {
     display: flex;
-    margin: 50px;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
 
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
 .publish{
-    margin: 0 10px;
+    margin: 0 20px;
     color: #343434;
 }
 .publish h3 {
@@ -92,6 +153,7 @@ button {
     font-size: 40px;
     line-height: 48px;
     color: #025157;
+    margin-top: 0;
 }
 .publish > p {
     font-size: 16px;

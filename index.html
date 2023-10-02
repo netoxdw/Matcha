@@ -6,33 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=Slabo+27px&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Matcha</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <a href="/" class="logo">
-            <img src="https://soozav.github.io/bedu-matcha/img/logo.svg" alt="">
-        </a>
-        <nav class="navbar">
-            <ul>
-                <li class="menu-item"><a href="#">Platform</a></li>
-                <li class="menu-item"><a href="#">Pricing</a></li>
-                <li class="menu-item"><a href="#">Custumers</a></li>
-                <li class="menu-item"><a href="#">Resources</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <a href="#">Sig In</a>
-            <button>Start free trial</button>
-        </div>
-    </header>
+    <section class="fixed-header">
+        <header class="header">
+            <a href="/" class="logo">
+                <img src="https://soozav.github.io/bedu-matcha/img/logo.svg" alt="">
+            </a>
+            <nav class="navbar">
+                <ul>
+                    <li class="menu-item"><a href="#">Platform</a></li>
+                    <li class="menu-item"><a href="#">Pricing</a></li>
+                    <li class="menu-item"><a href="#">Custumers</a></li>
+                    <li class="menu-item"><a href="#">Resources</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <a href="#">Sig In</a>
+                <button>Start free trial</button>
+            </div>
+        </header>
+    </section>
 
-    <section>
+
+    <section class="main">
         <h1>Build your blog. Build your business.</h1>
         <h4>
             Instantly publish articles, drive more traffic, grow your email list, and
@@ -48,17 +52,18 @@
 
     <section class="promo">
 
-        <div class="video">
+        <article class="video">
             <video controls
                 poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
                 <source type="video/webm"
                     src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
-                <source type="video/webm"
+                <source type="video/mp4"
                     src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
             </video>
-        </div>
+            <img src="https://soozav.github.io/bedu-matcha/img/see_how_it_works.png" alt="See how it works"">
+        </article>
 
-        <article class="publish">
+        <article class=" publish">
             <h3>Publish to your blog in minutes, not hours.</h3>
             <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have
                 hours to create content that may or may not work. With Matcha, instantly publish from our library of
@@ -70,7 +75,6 @@
                 <button>Start My Trial</button>
             </div>
         </article>
-
     </section>
 
 </body>

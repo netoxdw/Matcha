@@ -15,3 +15,10 @@
 - Aplicar conceptos de modelo de caja y display en CSS para agregar la apariencia de nuestra barra de navegación.
 - Agregar nuestros cambios de códigos al historial de cambios en Git y subirlos a GitHub.
 
+## Sesion 3
+
+### Temas aplicados
+
+- Agregar contenido de video a nuestra web.
+- Cambiar el posicionamiento de los elementos HTML.
+ - Estructurar los elementos dentro de un contenedor de manera flexible.
